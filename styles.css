@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsla(178, 100%, 50%, 0.5);
+    --VerydarkblueMain: hsl(217, 54%, 11%);
+    --VerydarkblueCard: hsl(216, 50%, 16%);
+    --VerydarkblueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+        background-color:var(--VerydarkblueMain);
+            font-family: 'Outfit', sans-serif;
+                font-size: 18px;
+}
+
+
+
+.container{
+    text-align:center;
+    width: 900px;
+    height:100vh;
+    margin: 2rem auto;
+    color: var(--White);
+}
+
+.contenedor{
+    width: 570px;
+    height:300px;
+    position: relative;
+    border: 1px solid var(--VerydarkblueLine);
+    margin: 3rem auto;
+            background-color: var(--VerydarkblueCard);
+}
+
+.bloque{
+    height:20px;
+    width: 100px;
+    background-color:aqua;
+    position:absolute;
+}
+
+.usuario{
+    width:100px;
+    height:20px;
+    position: absolute;
+    background-color:tomato;
+}
+
+.bola{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color:rgb(255, 230, 0);
+    position: absolute;
+}
